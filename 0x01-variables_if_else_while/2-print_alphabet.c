@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
- * main - returns alphabelts
- * Return: returns 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch = 'a';
+	char low;
 
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	printf("\n");
+
 	return (0);
+}
