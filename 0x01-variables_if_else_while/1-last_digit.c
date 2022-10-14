@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- * main - last digit of a randomly generated number
- * Return: Always 0(Successful)
+ * main - return last digit of a randomly generated number
+ * Return: Always 0(Success)
  */
 
 int main(void)
@@ -16,7 +16,6 @@ int main(void)
 	printf("Last digit of %d is ", n);
 	num = n % 10;
 	if (num > 5)
-
 		printf("%d and is greater than 5\n", num);
 	else if ((num < 6) && (num < 0))
 		printf("%d and is less than 6 and not 0\n", num);
