@@ -33,6 +33,6 @@ int main(void)
 		}
 		e++;
 	}
-	putchar('n\');
+	putchar('\n');
 	return (0);
 }
